@@ -52,5 +52,10 @@ namespace MyTranscript
             year1Sem1.Add(newCourse);
             dataGridViewCourse.DataSource = year1Sem1;
         }
+
+        private void dataGridViewCourse_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
