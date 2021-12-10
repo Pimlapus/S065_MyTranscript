@@ -48,6 +48,7 @@ namespace MyTranscript
             newCourse.CourseCredit = textBoxCourseID.Text;
             newCourse.Grade = textBoxGrade.Text;
 
+            dataGridViewCourse.DataSource = null;
             year1Sem1.Add(newCourse);
             dataGridViewCourse.DataSource = year1Sem1;
         }
